@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "Xrak-Control",
+  "version": "4.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "mobx": "^6.15.0",
-    "mobx-react-lite": "^4.1.1",
     "mqtt": "^5.14.1",
     "next": "16.0.7",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
